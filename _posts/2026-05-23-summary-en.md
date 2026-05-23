@@ -5,262 +5,232 @@ date: 2026-05-23
 lang: en
 ---
 
-> From 29 items, 11 important content pieces were selected
+> From 26 items, 10 important content pieces were selected
 
 ---
 
-1. [Eli Lilly's retatrutide phase 3 trial achieves 28.3% weight loss](#item-1) ⭐️ 9.0/10
-2. [Project Glasswing Update: 90.6% True Positive Rate for Vulnerabilities](#item-2) ⭐️ 8.0/10
-3. [Why Japanese Companies Diversify So Much](#item-3) ⭐️ 8.0/10
-4. [Antigravity 2.0 Tops OpenSCAD LLM Benchmark for 3D Models](#item-4) ⭐️ 8.0/10
-5. [yt-dlp deprecates Bun support over Rust rewrite and AI concerns](#item-5) ⭐️ 8.0/10
-6. [U.S. Researchers Face Unclear Restrictions on Foreign Collaborations](#item-6) ⭐️ 8.0/10
-7. [AI's HBM Demand Squeezes Consumer Memory, Driving Price Hikes](#item-7) ⭐️ 8.0/10
-8. [BPF-based custom page-cache eviction proposed at Linux Summit](#item-8) ⭐️ 8.0/10
-9. [ByteDance Open-Sources Lance: 3B Unified Multimodal Model](#item-9) ⭐️ 8.0/10
-10. [China Cracks Down on Illegal Cross-Border Securities Trading](#item-10) ⭐️ 8.0/10
-11. [Cloudflare global outage 25 min, 28% HTTP traffic affected](#item-11) ⭐️ 8.0/10
+1. [Memory Shortage Drives Consumer Electronics Price Hikes](#item-1) ⭐️ 8.0/10
+2. [Datasette Agent: LLM-Powered AI Assistant for Data](#item-2) ⭐️ 8.0/10
+3. [Shipping a Laptop to a Refugee Camp in Uganda](#item-3) ⭐️ 7.0/10
+4. [Why Japanese Companies Diversify: Lifetime Employment](#item-4) ⭐️ 7.0/10
+5. [FTC Fines Cox Media Group $1M for Fake AI Listening Service](#item-5) ⭐️ 7.0/10
+6. [CodeGraph: Pre-Indexed Knowledge Graph for Claude Code](#item-6) ⭐️ 7.0/10
+7. [Understand-Anything: Interactive Knowledge Graph for Codebases](#item-7) ⭐️ 7.0/10
+8. [Anthropic Launches Official Claude Code Plugin Directory](#item-8) ⭐️ 7.0/10
+9. [CloakBrowser: Stealth Chromium Fork Evades Bot Detection](#item-9) ⭐️ 7.0/10
+10. [Osiris: Open-Source Palantir Alternative for OSINT](#item-10) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Eli Lilly's retatrutide phase 3 trial achieves 28.3% weight loss](https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html) ⭐️ 9.0/10
+## [Memory Shortage Drives Consumer Electronics Price Hikes](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
 
-Eli Lilly announced results from the TRIUMPH-1 phase 3 trial of retatrutide, showing average weight loss of 28.3% at the highest dose (12 mg) over 80 weeks in adults with obesity or overweight without diabetes. All primary and key secondary endpoints were met. This result represents one of the highest weight loss percentages reported in a clinical trial for an obesity drug, potentially surpassing existing treatments like semaglutide. If approved, retatrutide could offer a more effective option for weight management, impacting the obesity treatment landscape. The trial enrolled about 2,500 participants; 45.3% of those on 12 mg lost at least 30% of their body weight. Discontinuation due to adverse events was 4.1% for the 4 mg dose, lower than placebo (4.9%), with gastrointestinal side effects being common.
+Memory manufacturers are reallocating wafer capacity from DDR and LPDDR to HBM to meet surging AI demand, causing a shortage of consumer DRAM and price increases for devices like smartphones. This structural shift means consumer electronics, especially budget smartphones critical for emerging markets, will become significantly more expensive for several years, impacting billions of users. HBM wafer allocation is expected to rise from 2% to 20% by end of 2026, and a gigabyte of HBM consumes over three times the wafer capacity of DDR or LPDDR.
 
-telegram · zaihuapd · May 22, 02:18
+rss · Simon Willison · May 22, 22:01
 
-**Background**: Retatrutide (LY-3437943) is an investigational triple agonist targeting GLP-1, GIP, and glucagon receptors, developed by Eli Lilly. It is designed to reduce appetite and increase energy expenditure. Phase 3 trials are the final stage before regulatory approval.
+**Background**: Memory manufacturing is dominated by three companies with fixed wafer capacity. HBM (High Bandwidth Memory) is a 3D-stacked memory used in AI GPUs for extreme bandwidth, while DDR and LPDDR are used in PCs and mobile devices. The AI boom has dramatically increased demand for HBM, forcing manufacturers to prioritize it over consumer memory.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Retatrutide">Retatrutide - Wikipedia</a></li>
-<li><a href="https://www.goodrx.com/conditions/weight-loss/retatrutide-weight-loss">Retatrutide for Weight Loss: Availability, Dosage, and More - GoodRx</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HBM_memory_shortage">HBM memory shortage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://semiwiki.com/wikis/semiconductor-ip-wikis/ddr-vs-lpddr-vs-hbm-wiki/">DDR vs. LPDDR vs. HBM Wiki - SemiWiki</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#obesity`, `#clinical trial`, `#retatrutide`, `#pharmaceutical`
+**Tags**: `#memory shortage`, `#consumer electronics`, `#AI hardware`, `#semiconductor industry`
 
 ---
 
 <a id="item-2"></a>
-## [Project Glasswing Update: 90.6% True Positive Rate for Vulnerabilities](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 8.0/10
+## [Datasette Agent: LLM-Powered AI Assistant for Data](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 8.0/10
 
-Anthropic's Project Glasswing update reports that its security analysis tool achieved a 90.6% true positive rate for high- or critical-severity vulnerabilities, as validated by six independent security research firms. This demonstrates that AI-assisted vulnerability detection can be highly effective, potentially transforming how open source software is secured at scale, which is critical as AI agents increasingly rely on such code. Out of 1,752 high- or critical-rated vulnerabilities assessed, 90.6% were valid true positives, and 62.4% were confirmed as high- or critical-severity. The tool is based on Anthropic's Claude Mythos model.
+Simon Willison announced the first release of Datasette Agent, an extensible AI assistant that integrates his LLM Python library with Datasette to enable conversational querying and charting of data. This integration brings LLM-powered natural language interaction to Datasette, making data exploration more accessible to non-technical users and significantly enhancing productivity for data analysts. Datasette Agent runs on Gemini 3.1 Flash-Lite for the demo, and supports plugins like datasette-agent-charts for Observable Plot-based charting and datasette-agent-openai-imagegen for image generation.
 
-hackernews · louiereederson · May 22, 19:31 · [Discussion](https://news.ycombinator.com/item?id=48240419)
+rss · Simon Willison · May 21, 19:52
 
-**Background**: Project Glasswing is an initiative by Anthropic to secure critical open source software using advanced AI models. Traditional static analysis tools can catch common vulnerabilities but often miss complex or context-dependent issues. AI models like Claude Mythos aim to find such vulnerabilities proactively, offering a new layer of defense for software maintainers.
+**Background**: Datasette is an open-source tool for exploring and publishing data, while Simon Willison's LLM library provides a CLI and Python interface for interacting with large language models. Datasette Agent combines these to allow users to ask questions in natural language and get answers via SQL queries.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></li>
-<li><a href="https://www.anthropic.com/project/glasswing">Project Glasswing</a></li>
+<li><a href="https://simonwillison.net/2026/May/21/datasette-agent/">Datasette Agent - simonwillison.net</a></li>
+<li><a href="https://github.com/datasette/datasette-agent">GitHub - datasette/datasette-agent: An LLM-powered agent for ...</a></li>
+<li><a href="https://github.com/datasette/datasette-agent-charts">GitHub - datasette/datasette-agent-charts: Observable Plot ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments show mixed reactions: some users like mdeeks report high accuracy and adoption in their workflows, while others like mukmuk and demorro express skepticism about real-world efficacy compared to existing tools and question cost-effectiveness. The maintainer of curl, Daniel Stenberg, saw no significant improvement over existing tools.
-
-**Tags**: `#AI`, `#security`, `#vulnerability detection`, `#Anthropic`
+**Tags**: `#AI`, `#data analysis`, `#open source`, `#Datasette`, `#LLM`
 
 ---
 
 <a id="item-3"></a>
-## [Why Japanese Companies Diversify So Much](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
+## [Shipping a Laptop to a Refugee Camp in Uganda](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 7.0/10
 
-An analysis argues that Japanese companies diversify across many fields due to lifetime employment and an insular corporate culture that prioritizes employee interests over shareholder value. This diversification strategy contrasts sharply with Western focus on core competencies, challenging assumptions about corporate efficiency and offering an alternative model for long-term stability. The system only works when companies are insulated from outside pressure, such as takeovers, and employees develop firm-specific skills that are not transferable to other employers.
+A personal account details the severe corruption and logistical hurdles encountered when shipping a laptop to a refugee camp in Uganda, including bribery demands and customs delays. This story exposes systemic corruption in developing countries' logistics systems, highlighting how such inefficiencies hinder humanitarian aid and increase costs for recipients. The author attempted to ship a laptop via regular post, but faced repeated bribe demands and bureaucratic delays, ultimately relying on a local contact to navigate the system.
 
-hackernews · d0ks · May 22, 15:22 · [Discussion](https://news.ycombinator.com/item?id=48237163)
+hackernews · lexandstuff · May 22, 21:36 · [Discussion](https://news.ycombinator.com/item?id=48241997)
 
-**Background**: Lifetime employment in Japan has historically fostered a workforce that stays with one company for decades, encouraging investment in company-specific knowledge. The keiretsu system, a network of interlocking business relationships and cross-shareholdings, further insulates companies from market pressures and enables long-term planning.
+**Background**: Uganda hosts over 1.5 million refugees, many in camps with limited access to technology. Shipping electronics into the country is notoriously difficult due to high import duties and corruption among customs officials.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://globisinsights.com/purpose/values/lifetime-employment-in-japan/">Lifetime Employment in Japan Needs a New Spin - GLOBIS Insights</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Keiretsu_system">Keiretsu system</a></li>
+**Discussion**: Commenters largely agree with the author's account, with Ugandan locals confirming the broken system. Some suggest using grey-market freight forwarders or personally carrying items as more reliable alternatives.
 
-</ul>
-</details>
-
-**Discussion**: Comments highlight that this analysis captures the core role of lifetime employment and insulation, but some note that Western companies were also diversified in the past. An East Asian commenter warns against romanticizing the system, pointing out subtle class issues.
-
-**Tags**: `#Japanese business`, `#corporate culture`, `#organizational behavior`, `#diversification`, `#lifetime employment`
+**Tags**: `#logistics`, `#corruption`, `#developing countries`, `#humanitarian aid`, `#Uganda`
 
 ---
 
 <a id="item-4"></a>
-## [Antigravity 2.0 Tops OpenSCAD LLM Benchmark for 3D Models](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 8.0/10
+## [Why Japanese Companies Diversify: Lifetime Employment](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 7.0/10
 
-Antigravity 2.0, an AI agent powered by Gemini 3.5 Flash, achieved the top score in the OpenSCAD LLM benchmark by generating complex 3D architectural models like the Pantheon, including interior details such as coffered ceilings. This benchmark demonstrates that LLMs are advancing in parametric 3D modeling, which could significantly accelerate architectural design and 3D printing workflows. It also highlights the potential of AI agents to autonomously handle intricate geometric tasks. The benchmark used the Pantheon as a single test case, which some commenters noted limits generalizability. Antigravity 2.0 was the only agent that implemented the Pantheon's interior ceiling pattern with repeated square coffers visible through the oculus.
+An article explores how lifetime employment and employee-run firms in Japan drive corporate diversification, contrasting with Western focus on shareholder value. This analysis challenges the Western assumption that corporate focus maximizes value, offering an alternative model where diversification ensures stability and employee welfare. The article notes that Japanese firms, insulated from shareholder pressure, diversify to retain lifetime employees whose skills are firm-specific, not transferable.
 
-hackernews · jetter · May 22, 10:38 · [Discussion](https://news.ycombinator.com/item?id=48234090)
+hackernews · d0ks · May 22, 15:22 · [Discussion](https://news.ycombinator.com/item?id=48237163)
 
-**Background**: OpenSCAD is a free, script-based 3D CAD modeller that uses its own description language for creating solid objects via constructive solid geometry. Antigravity 2.0 is Google's AI agent platform that integrates with the Gemini API and provides CLI and IDE tools for orchestrating AI tasks.
+**Background**: Lifetime employment is a core institution in Japan, with about 30-40% of workers considered de facto lifetime employees. This system, combined with keiretsu corporate structures, encourages firms to expand into unrelated businesses to provide stable employment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
-<li><a href="https://antigravity.google/docs/overview">Google Antigravity Documentation</a></li>
-<li><a href="https://www.buildfastwithai.com/blogs/google-antigravity-2-0-developer-guide-2026">Google Antigravity 2.0: The Complete Developer Guide (2026)</a></li>
+<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
+<li><a href="https://www.academia.edu/1146844/Lifetime_Employment_in_21st_Century_Japan_Stability_and_Resilience_Under_Pressure_in_the_Japanese_Management_System">(PDF) Lifetime Employment in 21st Century Japan : Stability and...</a></li>
+<li><a href="https://www.academia.edu/40080902/Keiretsu_Structures_Collinson_S_2015_Keiretsu_Structures_In_Wiley_Encyclopedia_of_Management_Volume_12_Strategic_Management_eds_C_L_Cooper_J_McGee_and_T_Sammut_Bonnici_">(PDF) Keiretsu Structures - Collinson, S. (2015). Keiretsu Structures .</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions were mixed. Some users praised Antigravity's output quality, while others criticized rollout stability issues and noted that the benchmark's single test case is insufficient to prove general superiority. A commenter also observed that Gemini models are the least 'jagged' across different 3D model types.
+**Discussion**: Commenters note that Western companies also diversified historically, and some argue the Japanese system is driven by subtle class dynamics. Others point out that diversification can make business sense when expertise spans categories.
 
-**Tags**: `#LLM`, `#3D modeling`, `#OpenSCAD`, `#benchmark`, `#AI agents`
+**Tags**: `#business`, `#economics`, `#japan`, `#corporate-culture`, `#management`
 
 ---
 
 <a id="item-5"></a>
-## [yt-dlp deprecates Bun support over Rust rewrite and AI concerns](https://github.com/yt-dlp/yt-dlp/issues/16766) ⭐️ 8.0/10
+## [FTC Fines Cox Media Group $1M for Fake AI Listening Service](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 7.0/10
 
-yt-dlp has deprecated support for the Bun JavaScript runtime, citing foreseeable compatibility and security issues stemming from Bun's upcoming Rust rewrite and AI involvement. This decision affects many yt-dlp users who rely on Bun and highlights broader tensions in open-source communities regarding AI-driven development and major rewrites. The deprecation was announced before Bun's Rust rewrite has even been released, leading to criticism that the move is based on politics rather than engineering evidence.
+The FTC announced settlements totaling $930,000 with Cox Media Group, MindSift, and 1010 Digital Works for falsely marketing an 'Active Listening' AI service that claimed to capture real-time conversation data from smart devices for targeted advertising. This enforcement action sets a precedent against deceptive AI marketing claims, reinforcing that companies cannot exaggerate AI capabilities to sell services. It also clarifies that hiding consent in terms of service does not constitute adequate consent for invasive data collection. The FTC found that the 'Active Listening' service did not actually listen to conversations or use voice data; instead, it resold email lists from other data brokers at a significant markup. The FTC also stated that claiming consumers opted in via mandatory terms of service is not valid consent.
 
-hackernews · tamnd · May 22, 17:24 · [Discussion](https://news.ycombinator.com/item?id=48238789)
+rss · Simon Willison · May 22, 04:48
 
-**Background**: yt-dlp is a popular command-line video downloader for sites like YouTube. Bun is a fast JavaScript runtime initially written in Zig, but it is being rewritten in Rust. The rewrite and AI involvement (via Anthropic acquisition) raised concerns among maintainers about code reviewability and security of 1 million lines of new code.
+**Background**: In 2024, Cox Media Group promoted an 'Active Listening' service using a pitch deck that claimed smart devices capture real-time intent data by listening to conversations. This sparked public concern and conspiracy theories about smartphones secretly recording users for ad targeting. The FTC investigation revealed the service was a sham, relying on resold email lists rather than any voice data.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
-<li><a href="https://github.com/yt-dlp/yt-dlp">GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio ...</a></li>
+<li><a href="https://www.wired.com/story/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/">‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work... | WIRED</a></li>
+<li><a href="https://www.404media.co/heres-the-pitch-deck-for-active-listening-ad-targeting/">Here’s the Pitch Deck for ‘ Active Listening ’ Ad Targeting</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments are divided. Some users agree with yt-dlp's caution, citing the difficulty of reviewing 1 million lines of rewritten code. Others argue the decision is premature and based on political discomfort with AI rather than engineering facts.
+**Discussion**: The author of the blog post expresses relief at having new evidence to debunk the conspiracy theory that phones listen to conversations for ads. The community discussion is not provided, but the author notes this is a 'least rewarding niche online hobby' to myth-bust.
 
-**Tags**: `#bun`, `#yt-dlp`, `#rust`, `#open-source`, `#deprecation`
+**Tags**: `#FTC`, `#AI ethics`, `#privacy`, `#surveillance advertising`, `#regulation`
 
 ---
 
 <a id="item-6"></a>
-## [U.S. Researchers Face Unclear Restrictions on Foreign Collaborations](https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators) ⭐️ 8.0/10
+## [CodeGraph: Pre-Indexed Knowledge Graph for Claude Code](https://github.com/colbymchenry/codegraph) ⭐️ 7.0/10
 
-U.S. researchers are being informed individually by agencies like NIH and NASA that they cannot publish with foreign collaborators without prior approval, yet no official guidance has been publicly released. This lack of transparency creates confusion and could hinder international scientific collaboration, which is essential for research progress. The unclear policy may also affect U.S. competitiveness in science and technology. The restrictions apply to any publication involving a 'foreign component' and have been in place since at least 2003, but are now being enforced more strictly without formal public guidance. Researchers report being told about these rules on a case-by-case basis.
+Colbymchenry released CodeGraph, a pre-indexed code knowledge graph for Claude Code that reduces token usage and tool calls while operating fully locally. This addresses a key pain point for AI coding agents by enabling instant query of symbol relationships and call graphs, drastically cutting token costs and latency. CodeGraph is written in TypeScript and gained 334 stars in 24 hours on GitHub. It supports agents like Claude Code, Cursor, and Codex CLI via a single MCP tool call.
 
-hackernews · ceejayoz · May 22, 16:23 · [Discussion](https://news.ycombinator.com/item?id=48238025)
+ossinsight · colbymchenry · May 23, 14:54
 
-**Background**: International collaboration is a cornerstone of modern research, with many papers involving co-authors from multiple countries. Previously, agencies like NIH and NASA permitted such collaborations more freely; the current shift toward tighter restrictions, without clear rationale, has caused concern in the academic community.
+**Background**: AI coding agents typically scan files to understand code, which consumes many tokens and tool calls. A pre-indexed knowledge graph stores symbol relationships and call graphs, allowing agents to query instantly without scanning.
 
-**Discussion**: Commenters express frustration at the lack of transparency and official guidance, calling the policy changes confusing and potentially harmful to science. Some highlight the asymmetry with countries like China, which do not extend similar openness to foreign researchers.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/colbymchenry/codegraph">colbymchenry/codegraph: Pre - indexed code knowledge graph for...</a></li>
+<li><a href="https://pyshine.com/CodeGraph-Pre-Indexed-Code-Knowledge-Graph-AI-Coding-Agents/">CodeGraph: Pre - Indexed Code Knowledge Graph for AI... | PyShine</a></li>
 
-**Tags**: `#policy`, `#research`, `#academia`, `#US`, `#international collaboration`
+</ul>
+</details>
+
+**Tags**: `#TypeScript`, `#Claude Code`, `#knowledge graph`, `#developer tools`, `#LLM`
 
 ---
 
 <a id="item-7"></a>
-## [AI's HBM Demand Squeezes Consumer Memory, Driving Price Hikes](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+## [Understand-Anything: Interactive Knowledge Graph for Codebases](https://github.com/Lum1104/Understand-Anything) ⭐️ 7.0/10
 
-The growing demand for High Bandwidth Memory (HBM) in AI data centers is diverting wafer capacity from consumer DDR and LPDDR memory, leading to price increases in consumer electronics. Memory manufacturers are allocating an expected 20% of wafers to HBM by end of 2026, up from 2% previously. This shift means smartphones, laptops, and other consumer devices will likely become more expensive, especially impacting budget markets like sub-$100 smartphones in Africa and South Asia. It highlights how AI infrastructure investments can have ripple effects across the broader electronics industry. A single gigabyte of HBM consumes more than three times the wafer capacity of a gigabyte of DDR or LPDDR. Memory companies deliberately under-provision fabrication capacity to avoid overcapacity, constraining supply for years.
+Lum1104/Understand-Anything is a new TypeScript tool that converts any codebase into an interactive knowledge graph, allowing developers to explore, search, and ask questions about their code. It gained 271 stars on GitHub in the past 24 hours. This tool bridges the gap between static code visualization and AI-assisted coding, enabling developers to understand complex codebases more intuitively. Its integration with popular AI coding assistants like Claude Code, Cursor, and Copilot makes it a valuable addition to modern development workflows. The tool represents every file, function, and class as a clickable node with plain-English summaries and relationships. It supports multiple AI coding assistants including Claude Code, Codex, Cursor, Copilot, and Gemini CLI.
 
-rss · Simon Willison · May 22, 22:01
+ossinsight · Lum1104 · May 23, 14:54
 
-**Background**: High Bandwidth Memory (HBM) is a 3D-stacked DRAM technology used in high-performance GPUs for AI and graphics, offering high data rates while saving space. Wafer capacity refers to the number of silicon wafers a fabrication plant can process, which is fixed in the short term. Only three major memory manufacturers remain (Samsung, SK Hynix, Micron), and they allocate wafer capacity among different memory types like DDR, LPDDR, and HBM.
+**Background**: Traditional code visualization tools often produce static diagrams that lack interactivity and semantic understanding. Understand-Anything uses knowledge graph technology to create a dynamic, searchable map of codebases, making it easier for developers to onboard new projects or debug complex systems. The tool is built with TypeScript and is open-source on GitHub.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
-<li><a href="https://www.wevolver.com/article/what-is-hbm-high-bandwidth-memory-deep-dive-into-architecture-packaging-and-applications">What is HBM ( High Bandwidth Memory )? Deep Dive into Architecture...</a></li>
+<li><a href="https://github.com/Lum1104/Understand-Anything">GitHub - Lum1104/Understand-Anything: Graphs that teach > graphs ...</a></li>
+<li><a href="https://understand-anything.com/">Understand Anything — Graphs that teach the codebase</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#memory shortage`, `#HBM`, `#consumer electronics`, `#AI`, `#hardware pricing`
+**Tags**: `#knowledge-graph`, `#code-visualization`, `#developer-tools`, `#AI-assisted-coding`
 
 ---
 
 <a id="item-8"></a>
-## [BPF-based custom page-cache eviction proposed at Linux Summit](https://lwn.net/Articles/1073103/) ⭐️ 8.0/10
+## [Anthropic Launches Official Claude Code Plugin Directory](https://github.com/anthropics/claude-plugins-official) ⭐️ 7.0/10
 
-Tal Zussman proposed cache_ext, a BPF-based system that allows custom page-cache eviction policies to be loaded from user space without kernel changes, at the 2026 Linux Storage, Filesystem, Memory Management, and BPF Summit. This enables workloads like financial databases to avoid thrashing by tailoring page-cache eviction to their specific access patterns, potentially improving performance without application-level caching or direct I/O. cache_ext is implemented as a BPF struct_ops program with callbacks for folio addition, removal, access, and eviction requests, and is attached to control groups to manage per-workload policies.
+Anthropic has released an official GitHub repository, anthropics/claude-plugins-official, serving as a curated directory of high-quality plugins for Claude Code. The repository gained 263 stars in the past 24 hours, indicating strong community interest. This official plugin marketplace centralizes and vets extensions for Claude Code, Anthropic's agentic coding tool, making it easier for developers to discover and install trusted plugins. It signals Anthropic's commitment to building an ecosystem around Claude Code, potentially accelerating adoption among developers. Plugins can be installed directly from the marketplace via Claude Code's plugin system using the command '/plugin install {plugin-name}@claude-plugins-official'. The repository is written in Python and is managed by Anthropic.
 
-rss · LWN.net · May 22, 14:37
+ossinsight · anthropics · May 23, 14:54
 
-**Background**: The Linux kernel's page cache uses LRU (least-recently-used) or multi-generational LRU algorithms to manage folios, but these generic policies can be suboptimal for certain workloads. eBPF is a technology that allows safe and efficient extension of kernel functionality at runtime without modifying kernel source code or loading modules. The proposal is inspired by sched_ext, which enables custom CPU scheduling policies via BPF.
+**Background**: Claude Code is Anthropic's agentic coding tool that reads codebases, edits files, runs commands, and helps developers ship faster. It is available as a VS Code extension and a standalone terminal tool. Plugins extend Claude Code's capabilities, allowing integration with external services or custom workflows.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/856931/">Multi-generational LRU: the next generation [LWN.net]</a></li>
-<li><a href="https://ebpf.io/">eBPF - Introduction, Tutorials & Community Resources</a></li>
-<li><a href="https://blogs.oracle.com/linux/intro-to-folios">An Introduction to Folios | linux - Oracle Blogs</a></li>
+<li><a href="https://github.com/anthropics/claude-plugins-official">anthropics/claude-plugins-official - GitHub</a></li>
+<li><a href="https://claude.com/plugins">Plugins for Claude Code and Cowork | Anthropic</a></li>
+<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system</a></li>
 
 </ul>
 </details>
 
-**Discussion**: During the session, Vlastimil Babka questioned why the existing access-twice heuristic fails for this scenario, and Zussman explained that concurrent scans fool it. Shakeel Butt asked whether the interface could manage all memory, not just the page cache; Zussman stated his focus is on file-backed memory for now.
-
-**Tags**: `#Linux kernel`, `#BPF`, `#page cache`, `#memory management`, `#storage`
+**Tags**: `#AI`, `#Claude`, `#plugins`, `#Python`, `#Anthropic`
 
 ---
 
 <a id="item-9"></a>
-## [ByteDance Open-Sources Lance: 3B Unified Multimodal Model](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 8.0/10
+## [CloakBrowser: Stealth Chromium Fork Evades Bot Detection](https://github.com/CloakHQ/CloakBrowser) ⭐️ 7.0/10
 
-ByteDance has open-sourced Lance, a 3 billion parameter multimodal model that natively unifies image and video understanding, generation, and cross-modal editing under the Apache 2.0 license. Lance's lightweight yet unified architecture achieves competitive results on benchmarks like GenEval and VBench, potentially lowering the barrier for multimodal AI research and applications. Lance uses a shared-context dual-stream expert architecture, with Qwen2.5-VL and Wan2.2 encoders for understanding and generation respectively, and introduces modality-aware positional encoding to resolve sequence boundary confusion.
+CloakHQ released CloakBrowser, an open-source stealth Chromium fork that passes all 30 bot detection tests by modifying browser fingerprints at the C++ source level, and serves as a drop-in replacement for Playwright. This project addresses a critical challenge in web automation and scraping by providing a genuine browser binary that anti-bot systems cannot distinguish from a normal user, potentially reducing website blocking and enabling more reliable automated workflows. Unlike typical stealth approaches that rely on JavaScript injection or configuration patches, CloakBrowser applies fingerprint modifications directly at the C++ source level, making it indistinguishable from a standard Chromium browser to detection systems.
 
-telegram · zaihuapd · May 22, 06:40
+ossinsight · CloakHQ · May 23, 14:54
 
-**Background**: Unified multimodal models aim to handle both understanding and generation tasks in a single framework, traditionally requiring separate models. Qwen2.5-VL is a vision-language model series by Alibaba Cloud, while Wan2.2 is a video diffusion model by the Wan-Video team using Mixture-of-Experts. Modality-aware positional encoding helps the model distinguish between different input types within a shared sequence.
+**Background**: Browser automation tools like Playwright are widely used for testing and web scraping, but many websites employ anti-bot systems that detect automated browsers through fingerprinting techniques. Traditional workarounds involve patching JavaScript or configuration files, which can be detected. CloakBrowser takes a different approach by forking Chromium and modifying its source code to remove automation traces.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/collections/Qwen/qwen25-vl">Qwen2.5-VL - a Qwen Collection</a></li>
-<li><a href="https://github.com/Wan-Video/Wan2.2">GitHub - Wan-Video/Wan2.2: Wan: Open and Advanced Large-Scale ...</a></li>
-<li><a href="https://arxiv.org/html/2510.23095v1">Revisiting Multimodal Positional Encoding in Vision–Language Models</a></li>
+<li><a href="https://github.com/CloakHQ/CloakBrowser">GitHub - CloakHQ/ CloakBrowser : Stealth Chromium that passes...</a></li>
+<li><a href="https://cloakbrowser.dev/">CloakBrowser — Stealth Chromium for Browser Automation</a></li>
+<li><a href="https://andrew.ooo/posts/cloakbrowser-stealth-chromium-playwright-replacement-review/">CloakBrowser Review: Stealth Chromium for AI... — andrew.ooo</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#multimodal`, `#ByteDance`, `#open-source`, `#AI`, `#computer vision`
+**Tags**: `#browser automation`, `#anti-bot`, `#web scraping`, `#Python`, `#Chromium`
 
 ---
 
 <a id="item-10"></a>
-## [China Cracks Down on Illegal Cross-Border Securities Trading](https://mp.weixin.qq.com/s?__biz=MzA4NzAzMDgwMw==&amp;mid=2651090403&amp;idx=3&amp;sn=bca72a940ac72bef356f29b5b9576ac1&amp;chksm=8a1670281e2bc67d2df3608a313ba9fdaf0fcd2f43ce44475c6bf273b386af2e4f9d8e8e2e2b&amp;scene=0&amp;xtrack=1) ⭐️ 8.0/10
+## [Osiris: Open-Source Palantir Alternative for OSINT](https://github.com/simplifaisoul/osiris) ⭐️ 7.0/10
 
-Eight Chinese government departments jointly issued a plan to crack down on illegal cross-border securities, futures, and fund operations, allowing existing investors only to sell holdings and withdraw funds. The CSRC has launched investigations into Tiger Brokers, Futu, and Changqiao, issuing administrative penalty notices. This marks a significant tightening of capital controls and enforcement against fintech platforms facilitating unapproved cross-border investments, affecting millions of Chinese investors and signaling a push towards legal channels like Stock Connect and QDII. The two-year rectification period limits existing investors to sell-only and fund withdrawals, after which all domestic websites, trading software, and servers must be shut down. The CSRC seeks to confiscate all illegal gains from Tiger, Futu, and Changqiao and impose severe penalties.
+Osiris, an open-source real-time OSINT dashboard built with TypeScript, has gained 61 stars in the past 24 hours on GitHub, positioning itself as a Palantir alternative. This project offers a free, open-source alternative to expensive commercial OSINT platforms like Palantir, potentially democratizing access to intelligence analysis tools for security researchers and small organizations. The repository is early-stage with only 1 push and no pull requests shown, indicating limited development activity so far. It is written entirely in TypeScript, suggesting a web-based architecture.
 
-telegram · zaihuapd · May 22, 08:26
+ossinsight · simplifaisoul · May 23, 14:54
 
-**Background**: Illegal cross-border securities operations involve foreign brokers soliciting mainland Chinese clients without approval. Legal channels for overseas investment include the Stock Connect programs (Shanghai-Hong Kong and Shenzhen-Hong Kong), QDII (Qualified Domestic Institutional Investor), and Cross-Border Wealth Management Connect (for Greater Bay Area). These regulated channels allow capital outflows under strict supervision.
+**Background**: OSINT (Open Source Intelligence) refers to the collection and analysis of publicly available data for intelligence purposes. Palantir is a proprietary data analytics platform widely used by governments and enterprises for intelligence and security. Open-source alternatives like Osiris aim to provide similar capabilities without licensing costs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/wiki/港股通">港股通 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://en.wikipedia.org/wiki/QDII">QDII</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/沪港通">沪港通 - 维基百科，自由的百科全书</a></li>
+<li><a href="https://www.rankred.com/palantir-competitors-alternatives/">14 Palantir Competitors and Alternatives [As Of 2026]</a></li>
+<li><a href="https://github.com/campwill/osint-dashboard">GitHub - campwill/ osint - dashboard : A web-based OSINT tool that...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Telegram post includes no community comments; it simply relays the regulatory announcement and separately mentions Lagou.com's bankruptcy as additional context.
-
-**Tags**: `#regulation`, `#fintech`, `#cross-border investment`, `#China`, `#securities`
-
----
-
-<a id="item-11"></a>
-## [Cloudflare global outage 25 min, 28% HTTP traffic affected](https://t.me/zaihuapd/41527) ⭐️ 8.0/10
-
-On December 5, 2025, at 08:47 UTC, Cloudflare's global network experienced a 25-minute outage that impacted approximately 28% of HTTP traffic, caused by a fix for the Next.js security vulnerability CVE-2025-55182 (React2Shell). This outage impacted a significant portion of global HTTP traffic, highlighting the risk of emergency security patches causing collateral damage, and underscores the complexity of mitigating critical RCE vulnerabilities like CVE-2025-55182 in widely-used frameworks. The outage was triggered by Cloudflare's WAF update to patch CVE-2025-55182, a critical pre-authentication remote code execution vulnerability in React Server Components and Next.js, and mainly affected customers using legacy FL1 proxy with Cloudflare managed rule sets.
-
-telegram · zaihuapd · May 22, 16:15
-
-**Background**: CVE-2025-55182, also known as React2Shell, is a critical vulnerability that allows unauthenticated remote code execution in React Server Components and Next.js applications. Cloudflare operates a global content delivery network and web security platform that includes a Web Application Firewall (WAF) to block such exploits. The outage occurred when a rule intended to mitigate this vulnerability caused unintended disruptions on the network.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/">Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components | Microsoft Security Blog</a></li>
-<li><a href="https://en.wikipedia.org/wiki/React_Server_Components">React Server Components</a></li>
-<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-55182">CVE Record: CVE-2025-55182</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Cloudflare`, `#故障报告`, `#网络`, `#CVE`, `#WAF`
+**Tags**: `#OSINT`, `#dashboard`, `#security`, `#TypeScript`, `#open-source`
 
 ---

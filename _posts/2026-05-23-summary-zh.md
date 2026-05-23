@@ -5,262 +5,232 @@ date: 2026-05-23
 lang: zh
 ---
 
-> From 29 items, 11 important content pieces were selected
+> From 26 items, 10 important content pieces were selected
 
 ---
 
-1. [礼来 retatrutide 三期试验平均减重 28.3%](#item-1) ⭐️ 9.0/10
-2. [Project Glasswing 更新：漏洞检测真阳性率达 90.6%](#item-2) ⭐️ 8.0/10
-3. [日本公司为何多元化经营](#item-3) ⭐️ 8.0/10
-4. [Antigravity 2.0 在 OpenSCAD LLM 基准测试中夺冠](#item-4) ⭐️ 8.0/10
-5. [yt-dlp 因 Rust 重写和 AI 问题弃用 Bun 支持](#item-5) ⭐️ 8.0/10
-6. [美国研究人员面临不明确的国际合作限制](#item-6) ⭐️ 8.0/10
-7. [AI 对 HBM 的需求挤压消费级内存，推高价格](#item-7) ⭐️ 8.0/10
-8. [在 Linux 峰会上提出基于 BPF 的自定义页缓存驱逐策略](#item-8) ⭐️ 8.0/10
-9. [字节跳动开源 3B 统一多模态模型 Lance](#item-9) ⭐️ 8.0/10
-10. [中国八部门整治非法跨境证券交易](#item-10) ⭐️ 8.0/10
-11. [Cloudflare 全球故障 25 分钟，影响 28% HTTP 流量](#item-11) ⭐️ 8.0/10
+1. [内存短缺推动消费电子产品涨价](#item-1) ⭐️ 8.0/10
+2. [Datasette Agent：基于 LLM 的数据 AI 助手](#item-2) ⭐️ 8.0/10
+3. [向乌干达难民营寄送一台笔记本电脑](#item-3) ⭐️ 7.0/10
+4. [日本企业为何多元化：终身雇佣制](#item-4) ⭐️ 7.0/10
+5. [FTC 对 Cox Media Group 虚假 AI 监听服务罚款近 100 万美元](#item-5) ⭐️ 7.0/10
+6. [CodeGraph：为 Claude Code 预建的知识图谱](#item-6) ⭐️ 7.0/10
+7. [Understand-Anything：将代码库转化为交互式知识图谱](#item-7) ⭐️ 7.0/10
+8. [Anthropic 发布官方 Claude Code 插件目录](#item-8) ⭐️ 7.0/10
+9. [CloakBrowser：可绕过机器人检测的隐形 Chromium 分支](#item-9) ⭐️ 7.0/10
+10. [Osiris：开源 OSINT 平台，Palantir 替代品](#item-10) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [礼来 retatrutide 三期试验平均减重 28.3%](https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html) ⭐️ 9.0/10
+## [内存短缺推动消费电子产品涨价](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
 
-礼来公布了 retatrutide 的 TRIUMPH-1 三期临床试验结果，在肥胖或超重但无糖尿病的成人中，最高剂量（12 mg）组在 80 周内平均减重 28.3%，达到了所有主要和关键次要终点。 这一结果是肥胖药物临床试验中报告的最高减重百分比之一，可能超越现有疗法如司美格鲁肽。如果获批，retatrutide 将为体重管理提供更有效选择，影响肥胖治疗格局。 试验纳入约 2500 名参与者；12 mg 组中 45.3% 的人减重至少 30%。4 mg 剂量组因不良事件停药率为 4.1%，低于安慰剂组的 4.9%，常见副作用为胃肠道反应。
+内存制造商正将晶圆产能从 DDR 和 LPDDR 重新分配给 HBM 以满足激增的 AI 需求，导致消费级 DRAM 短缺，智能手机等设备价格上涨。 这一结构性转变意味着消费电子产品，尤其是对新兴市场至关重要的廉价智能手机，将在未来几年内大幅涨价，影响数十亿用户。 HBM 的晶圆分配比例预计到 2026 年底将从 2%升至 20%，而且每 GB HBM 消耗的晶圆产能是 DDR 或 LPDDR 的三倍以上。
 
-telegram · zaihuapd · May 22, 02:18
+rss · Simon Willison · May 22, 22:01
 
-**背景**: Retatrutide（LY-3437943）是礼来公司开发的一种研究性三重激动剂，靶向 GLP-1、GIP 和胰高血糖素受体，旨在降低食欲并增加能量消耗。三期临床试验是获批前的最后阶段。
+**背景**: 内存制造由三家拥有固定晶圆产能的公司主导。HBM（高带宽内存）是一种用于 AI GPU 的 3D 堆叠内存，提供极高带宽，而 DDR 和 LPDDR 用于 PC 和移动设备。AI 热潮大幅增加了对 HBM 的需求，迫使制造商优先生产 HBM 而非消费级内存。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Retatrutide">Retatrutide - Wikipedia</a></li>
-<li><a href="https://www.goodrx.com/conditions/weight-loss/retatrutide-weight-loss">Retatrutide for Weight Loss: Availability, Dosage, and More - GoodRx</a></li>
+<li><a href="https://en.wikipedia.org/wiki/HBM_memory_shortage">HBM memory shortage</a></li>
+<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
+<li><a href="https://semiwiki.com/wikis/semiconductor-ip-wikis/ddr-vs-lpddr-vs-hbm-wiki/">DDR vs. LPDDR vs. HBM Wiki - SemiWiki</a></li>
 
 </ul>
 </details>
 
-**标签**: `#obesity`, `#clinical trial`, `#retatrutide`, `#pharmaceutical`
+**标签**: `#memory shortage`, `#consumer electronics`, `#AI hardware`, `#semiconductor industry`
 
 ---
 
 <a id="item-2"></a>
-## [Project Glasswing 更新：漏洞检测真阳性率达 90.6%](https://www.anthropic.com/research/glasswing-initial-update) ⭐️ 8.0/10
+## [Datasette Agent：基于 LLM 的数据 AI 助手](https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything) ⭐️ 8.0/10
 
-Anthropic 的 Project Glasswing 更新报告称，其安全分析工具针对高或严重漏洞实现了 90.6% 的真阳性率，该结果已由六家独立安全研究公司验证。 这表明 AI 辅助的漏洞检测可以非常有效，可能彻底改变大规模开源软件的安全防护方式，而这对于日益依赖此类代码的 AI 代理至关重要。 在评估的 1,752 个高或严重漏洞中，90.6% 是有效的真阳性，62.4% 被确认为高或严重级别。该工具基于 Anthropic 的 Claude Mythos 模型。
+Simon Willison 宣布了 Datasette Agent 的首个版本，这是一个可扩展的 AI 助手，将其 LLM Python 库与 Datasette 集成，支持对话式查询和数据图表生成。 这一集成将基于 LLM 的自然语言交互引入 Datasette，使非技术用户更容易进行数据探索，并显著提升数据分析师的工作效率。 Datasette Agent 在演示中运行于 Gemini 3.1 Flash-Lite，并支持插件如 datasette-agent-charts（基于 Observable Plot 的图表生成）和 datasette-agent-openai-imagegen（图像生成）。
 
-hackernews · louiereederson · May 22, 19:31 · [社区讨论](https://news.ycombinator.com/item?id=48240419)
+rss · Simon Willison · May 21, 19:52
 
-**背景**: Project Glasswing 是 Anthropic 的一项计划，旨在使用先进的 AI 模型保护关键开源软件。传统的静态分析工具可以捕获常见漏洞，但往往会错过复杂或依赖上下文的问题。像 Claude Mythos 这样的 AI 模型旨在主动发现此类漏洞，为软件维护者提供新的防御层。
+**背景**: Datasette 是一个用于探索和发布数据的开源工具，而 Simon Willison 的 LLM 库提供了与大型语言模型交互的 CLI 和 Python 接口。Datasette Agent 将两者结合，允许用户用自然语言提问并通过 SQL 查询获取答案。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/glasswing">Project Glasswing: Securing critical software for the AI era</a></li>
-<li><a href="https://www.anthropic.com/project/glasswing">Project Glasswing</a></li>
+<li><a href="https://simonwillison.net/2026/May/21/datasette-agent/">Datasette Agent - simonwillison.net</a></li>
+<li><a href="https://github.com/datasette/datasette-agent">GitHub - datasette/datasette-agent: An LLM-powered agent for ...</a></li>
+<li><a href="https://github.com/datasette/datasette-agent-charts">GitHub - datasette/datasette-agent-charts: Observable Plot ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论显示出复杂反应：像 mdeeks 这样的用户报告了高准确率和工作流程中的采用，而 mukmuk 和 demorro 等人则对与现有工具相比的实际效果表示怀疑，并质疑成本效益。curl 的维护者 Daniel Stenberg 认为没有明显改进。
-
-**标签**: `#AI`, `#security`, `#vulnerability detection`, `#Anthropic`
+**标签**: `#AI`, `#data analysis`, `#open source`, `#Datasette`, `#LLM`
 
 ---
 
 <a id="item-3"></a>
-## [日本公司为何多元化经营](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 8.0/10
+## [向乌干达难民营寄送一台笔记本电脑](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda) ⭐️ 7.0/10
 
-一项分析认为，日本公司之所以进行多领域多元化经营，是因为终身雇佣制以及优先考虑员工利益而非股东价值的封闭企业文化。 这种多元化战略与西方专注于核心能力的做法形成鲜明对比，挑战了有关企业效率的假设，并为长期稳定提供了一种替代模式。 该系统只有在公司免受外部压力（如收购）影响时才有效，且员工培养的是企业特定技能，无法转移到其他雇主。
+一篇个人记述详细描述了向乌干达难民营寄送笔记本电脑时遇到的严重腐败和物流障碍，包括索贿和海关延误。 这个故事揭露了发展中国家物流系统中的系统性腐败，凸显了这种低效率如何阻碍人道主义援助并增加接收方的成本。 作者试图通过普通邮政寄送笔记本电脑，但遭遇多次索贿和官僚延误，最终依靠当地联系人才能完成流程。
 
-hackernews · d0ks · May 22, 15:22 · [社区讨论](https://news.ycombinator.com/item?id=48237163)
+hackernews · lexandstuff · May 22, 21:36 · [社区讨论](https://news.ycombinator.com/item?id=48241997)
 
-**背景**: 日本的终身雇佣制在历史上培养了一支几十年服务于同一家公司的劳动力队伍，鼓励对企业特定知识的投资。系列（keiretsu）系统是一种相互持股的商业关系网络，进一步使公司免受市场压力，有助于长期规划。
+**背景**: 乌干达收容了超过 150 万难民，其中许多人生活在技术资源有限的难民营中。由于高额进口关税和海关官员的腐败，向该国运送电子产品是出了名的困难。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://globisinsights.com/purpose/values/lifetime-employment-in-japan/">Lifetime Employment in Japan Needs a New Spin - GLOBIS Insights</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Keiretsu_system">Keiretsu system</a></li>
+**社区讨论**: 评论者大多赞同作者的描述，乌干达当地人证实了系统的腐败。一些人建议使用灰色市场货运代理或亲自携带物品作为更可靠的替代方案。
 
-</ul>
-</details>
-
-**社区讨论**: 评论指出，该分析抓住了终身雇佣制和隔离保护的核心作用，但也有评论提到西方公司过去也同样多元化。一位东亚评论者警告不要浪漫化这一制度，指出其中微妙的阶级问题。
-
-**标签**: `#Japanese business`, `#corporate culture`, `#organizational behavior`, `#diversification`, `#lifetime employment`
+**标签**: `#logistics`, `#corruption`, `#developing countries`, `#humanitarian aid`, `#Uganda`
 
 ---
 
 <a id="item-4"></a>
-## [Antigravity 2.0 在 OpenSCAD LLM 基准测试中夺冠](https://modelrift.com/blog/openscad-llm-benchmark/) ⭐️ 8.0/10
+## [日本企业为何多元化：终身雇佣制](https://davidoks.blog/p/why-japanese-companies-do-so-many) ⭐️ 7.0/10
 
-Antigravity 2.0（由 Gemini 3.5 Flash 驱动的 AI 代理）在 OpenSCAD LLM 基准测试中夺得最高分，生成如万神殿等复杂 3D 建筑模型，包括方格天花板等内部细节。 该基准测试表明 LLM 在参数化 3D 建模方面取得进展，可能大幅加速建筑设计和 3D 打印工作流程，并凸显了 AI 代理自主处理复杂几何任务的潜力。 基准测试仅以万神殿作为单一测试案例，部分评论者指出这限制了普适性。Antigravity 2.0 是唯一实现万神殿内部方格天花板图案（透过穹顶孔洞可见）的代理。
+一篇文章探讨了日本的终身雇佣制和员工主导型企业如何推动企业多元化，与西方注重股东价值的模式形成对比。 这一分析挑战了西方关于企业专注能最大化价值的假设，提供了一种通过多元化确保稳定和员工福利的替代模式。 文章指出，日本企业因不受股东压力影响，通过多元化来留住技能专属于公司而非可转移的终身员工。
 
-hackernews · jetter · May 22, 10:38 · [社区讨论](https://news.ycombinator.com/item?id=48234090)
+hackernews · d0ks · May 22, 15:22 · [社区讨论](https://news.ycombinator.com/item?id=48237163)
 
-**背景**: OpenSCAD 是一款免费的基于脚本的 3D CAD 建模软件，使用自己的描述语言通过构造实体几何创建实体对象。Antigravity 2.0 是 Google 的 AI 代理平台，集成 Gemini API 并提供 CLI 和 IDE 工具用于编排 AI 任务。
+**背景**: 终身雇佣制是日本的核心制度，约 30-40%的工人被视为事实上的终身员工。这一制度与 keiretsu 企业结构相结合，鼓励企业扩展到不相关的业务以提供稳定的就业。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/OpenSCAD">OpenSCAD</a></li>
-<li><a href="https://antigravity.google/docs/overview">Google Antigravity Documentation</a></li>
-<li><a href="https://www.buildfastwithai.com/blogs/google-antigravity-2-0-developer-guide-2026">Google Antigravity 2.0: The Complete Developer Guide (2026)</a></li>
+<li><a href="https://www.bls.gov/opub/mlr/1984/08/rpt4full.pdf">Lifetime employment in Japan : three models of the concept</a></li>
+<li><a href="https://www.academia.edu/1146844/Lifetime_Employment_in_21st_Century_Japan_Stability_and_Resilience_Under_Pressure_in_the_Japanese_Management_System">(PDF) Lifetime Employment in 21st Century Japan : Stability and...</a></li>
+<li><a href="https://www.academia.edu/40080902/Keiretsu_Structures_Collinson_S_2015_Keiretsu_Structures_In_Wiley_Encyclopedia_of_Management_Volume_12_Strategic_Management_eds_C_L_Cooper_J_McGee_and_T_Sammut_Bonnici_">(PDF) Keiretsu Structures - Collinson, S. (2015). Keiretsu Structures .</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应不一。一些用户称赞 Antigravity 的输出质量，另一些则批评其发布稳定性问题，并指出单一测试案例不足以证明其全面优越性。有评论者还观察到 Gemini 模型在不同 3D 模型类型中表现最平稳。
+**社区讨论**: 评论者指出西方公司历史上也曾多元化，有人认为日本体系受微妙的阶级动态驱动。其他人则指出，当专业知识跨越类别时，多元化在商业上是有意义的。
 
-**标签**: `#LLM`, `#3D modeling`, `#OpenSCAD`, `#benchmark`, `#AI agents`
+**标签**: `#business`, `#economics`, `#japan`, `#corporate-culture`, `#management`
 
 ---
 
 <a id="item-5"></a>
-## [yt-dlp 因 Rust 重写和 AI 问题弃用 Bun 支持](https://github.com/yt-dlp/yt-dlp/issues/16766) ⭐️ 8.0/10
+## [FTC 对 Cox Media Group 虚假 AI 监听服务罚款近 100 万美元](https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything) ⭐️ 7.0/10
 
-yt-dlp 已弃用对 Bun JavaScript 运行时的支持，理由是 Bun 即将进行的 Rust 重写以及 AI 参与可能带来可预见的兼容性和安全问题。 这一决定影响了众多依赖 Bun 的 yt-dlp 用户，也凸显了开源社区在 AI 驱动开发和重大重写方面存在的更广泛分歧。 该弃用公告发布于 Bun 的 Rust 重写版本尚未发布之前，因此被批评为基于政治而非工程证据的决定。
+美国联邦贸易委员会（FTC）宣布与 Cox Media Group、MindSift 和 1010 Digital Works 达成总计 93 万美元的和解协议，原因是它们虚假宣传一项名为“Active Listening”的 AI 服务，声称能通过智能设备实时捕捉对话数据用于定向广告。 这一执法行动为打击欺骗性 AI 营销声明树立了先例，强化了公司不能夸大 AI 能力来销售服务。它还澄清了在服务条款中隐藏同意并不构成对侵入性数据收集的充分同意。 FTC 发现，“Active Listening”服务实际上并未监听对话或使用语音数据；而是以大幅加价转售从其他数据经纪商处获得的电子邮件列表。FTC 还指出，声称消费者通过强制服务条款选择加入并非有效同意。
 
-hackernews · tamnd · May 22, 17:24 · [社区讨论](https://news.ycombinator.com/item?id=48238789)
+rss · Simon Willison · May 22, 04:48
 
-**背景**: yt-dlp 是一个流行的命令行视频下载工具，支持 YouTube 等网站。Bun 是一个快速的 JavaScript 运行时，最初用 Zig 编写，目前正在用 Rust 重写。这次重写以及 Anthropic 收购带来的 AI 参与，引发了维护者对于百万行新代码的可审查性和安全性的担忧。
+**背景**: 2024 年，Cox Media Group 通过一份宣传材料推广“Active Listening”服务，声称智能设备通过监听对话来捕获实时意图数据。这引发了公众担忧和关于智能手机秘密录音用于广告定位的阴谋论。FTC 调查发现该服务是骗局，依赖转售的电子邮件列表而非任何语音数据。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
-<li><a href="https://github.com/yt-dlp/yt-dlp">GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio ...</a></li>
+<li><a href="https://www.wired.com/story/creepy-listening-tool-for-targeted-ads-didnt-actually-work-ftc-says/">‘Creepy’ Listening Tool for Targeted Ads Didn’t Actually Work... | WIRED</a></li>
+<li><a href="https://www.404media.co/heres-the-pitch-deck-for-active-listening-ad-targeting/">Here’s the Pitch Deck for ‘ Active Listening ’ Ad Targeting</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论意见不一。一些用户赞同 yt-dlp 的谨慎态度，指出审查百万行重写代码的难度。另一些人则认为该决定为时过早，是基于对 AI 的政治不适而非工程事实。
+**社区讨论**: 博文作者表示，有了新证据来驳斥手机监听对话用于广告的阴谋论，感到欣慰。未提供社区讨论，但作者指出，辟谣是“最不讨好的小众在线爱好”。
 
-**标签**: `#bun`, `#yt-dlp`, `#rust`, `#open-source`, `#deprecation`
+**标签**: `#FTC`, `#AI ethics`, `#privacy`, `#surveillance advertising`, `#regulation`
 
 ---
 
 <a id="item-6"></a>
-## [美国研究人员面临不明确的国际合作限制](https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators) ⭐️ 8.0/10
+## [CodeGraph：为 Claude Code 预建的知识图谱](https://github.com/colbymchenry/codegraph) ⭐️ 7.0/10
 
-美国研究人员正被个别告知，如 NIH 和 NASA 等机构要求他们在未经事先批准的情况下不得与外国合作者发表论文，但官方并未公开发布正式指导。 这种透明度不足造成了混乱，可能阻碍对研究进展至关重要的国际科学合作。不明确的政策也可能影响美国在科技领域的竞争力。 这些限制适用于任何涉及“外国成分”的出版物，至少自 2003 年以来就已存在，但现在在没有正式公开指导的情况下被更严格地执行。研究人员报告称，他们是在个案基础上被告知这些规则的。
+Colbymchenry 发布了 CodeGraph，这是一个为 Claude Code 预建的代码知识图谱，可在完全本地运行的同时减少 token 消耗和工具调用。 这解决了 AI 编程助手的一个关键痛点，通过即时查询符号关系和调用图，大幅降低 token 成本和延迟。 CodeGraph 使用 TypeScript 编写，在 GitHub 上 24 小时内获得 334 颗星。它通过单个 MCP 工具调用支持 Claude Code、Cursor 和 Codex CLI 等代理。
 
-hackernews · ceejayoz · May 22, 16:23 · [社区讨论](https://news.ycombinator.com/item?id=48238025)
+ossinsight · colbymchenry · May 23, 14:54
 
-**背景**: 国际合作是现代研究的基石，许多论文涉及来自多个国家的合著者。此前，NIH 和 NASA 等机构更自由地允许此类合作；当前转向更严格的限制，且没有明确理由，引起了学术界的担忧。
+**背景**: AI 编程助手通常通过扫描文件来理解代码，这会消耗大量 token 和工具调用。预建的知识图谱存储了符号关系和调用图，使代理无需扫描即可即时查询。
 
-**社区讨论**: 评论者表达了对缺乏透明度和官方指导的不满，认为政策变化令人困惑且可能损害科学。有人指出与中国等国家的不对称性，这些国家并未对外国研究者提供类似的开放度。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/colbymchenry/codegraph">colbymchenry/codegraph: Pre - indexed code knowledge graph for...</a></li>
+<li><a href="https://pyshine.com/CodeGraph-Pre-Indexed-Code-Knowledge-Graph-AI-Coding-Agents/">CodeGraph: Pre - Indexed Code Knowledge Graph for AI... | PyShine</a></li>
 
-**标签**: `#policy`, `#research`, `#academia`, `#US`, `#international collaboration`
+</ul>
+</details>
+
+**标签**: `#TypeScript`, `#Claude Code`, `#knowledge graph`, `#developer tools`, `#LLM`
 
 ---
 
 <a id="item-7"></a>
-## [AI 对 HBM 的需求挤压消费级内存，推高价格](https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything) ⭐️ 8.0/10
+## [Understand-Anything：将代码库转化为交互式知识图谱](https://github.com/Lum1104/Understand-Anything) ⭐️ 7.0/10
 
-AI 数据中心对高带宽内存（HBM）日益增长的需求正在从消费级 DDR 和 LPDDR 内存中分流晶圆产能，导致消费电子产品价格上涨。内存制造商预计到 2026 年底将把 20%的晶圆分配给 HBM，而此前这一比例仅为 2%。 这一转变意味着智能手机、笔记本电脑和其他消费设备可能会变得更贵，尤其是冲击非洲和南亚等地区 100 美元以下的低价手机市场。这凸显了 AI 基础设施投资如何对整个电子行业产生连锁反应。 每千兆字节 HBM 消耗的晶圆容量是每千兆字节 DDR 或 LPDDR 的三倍以上。内存制造商刻意限制制造产能以避免产能过剩，导致供应在未来数年内持续紧张。
+Lum1104/Understand-Anything 是一个新的 TypeScript 工具，可将任何代码库转换为交互式知识图谱，使开发者能够探索、搜索和提问。该工具在 GitHub 上 24 小时内获得了 271 颗星。 该工具弥合了静态代码可视化与 AI 辅助编码之间的差距，使开发者能够更直观地理解复杂代码库。它与 Claude Code、Cursor、Copilot 等流行 AI 编码助手的集成，使其成为现代开发工作流程中的宝贵补充。 该工具将每个文件、函数和类表示为可点击的节点，并附带英文摘要和关系说明。它支持多种 AI 编码助手，包括 Claude Code、Codex、Cursor、Copilot 和 Gemini CLI。
 
-rss · Simon Willison · May 22, 22:01
+ossinsight · Lum1104 · May 23, 14:54
 
-**背景**: 高带宽内存（HBM）是一种 3D 堆叠 DRAM 技术，用于 AI 和图形领域的高性能 GPU，提供高数据传输速率并节省空间。晶圆产能指晶圆厂能处理的硅晶圆数量，短期内固定不变。目前仅存三大内存制造商（三星、SK 海力士、美光），它们将晶圆产能分配给 DDR、LPDDR 和 HBM 等不同类型的内存。
+**背景**: 传统的代码可视化工具通常生成缺乏交互性和语义理解的静态图表。Understand-Anything 利用知识图谱技术创建动态、可搜索的代码库地图，使开发者更容易上手新项目或调试复杂系统。该工具使用 TypeScript 构建，并在 GitHub 上开源。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/High_Bandwidth_Memory">High Bandwidth Memory - Wikipedia</a></li>
-<li><a href="https://www.wevolver.com/article/what-is-hbm-high-bandwidth-memory-deep-dive-into-architecture-packaging-and-applications">What is HBM ( High Bandwidth Memory )? Deep Dive into Architecture...</a></li>
+<li><a href="https://github.com/Lum1104/Understand-Anything">GitHub - Lum1104/Understand-Anything: Graphs that teach > graphs ...</a></li>
+<li><a href="https://understand-anything.com/">Understand Anything — Graphs that teach the codebase</a></li>
 
 </ul>
 </details>
 
-**标签**: `#memory shortage`, `#HBM`, `#consumer electronics`, `#AI`, `#hardware pricing`
+**标签**: `#knowledge-graph`, `#code-visualization`, `#developer-tools`, `#AI-assisted-coding`
 
 ---
 
 <a id="item-8"></a>
-## [在 Linux 峰会上提出基于 BPF 的自定义页缓存驱逐策略](https://lwn.net/Articles/1073103/) ⭐️ 8.0/10
+## [Anthropic 发布官方 Claude Code 插件目录](https://github.com/anthropics/claude-plugins-official) ⭐️ 7.0/10
 
-Tal Zussman 在 2026 年 Linux 存储、文件系统、内存管理和 BPF 峰会上提出了 cache_ext，这是一个基于 BPF 的系统，允许从用户空间加载自定义的页缓存驱逐策略，无需修改内核。 这使得诸如金融数据库之类的工作负载能够通过针对其特定访问模式定制页缓存驱逐来避免颠簸，从而在不使用应用程序级缓存或直接 I/O 的情况下提高性能。 cache_ext 实现为 BPF struct_ops 程序，具有用于 folio 添加、移除、访问和驱逐请求的回调，并附加到控制组以管理每工作负载策略。
+Anthropic 发布了官方 GitHub 仓库 anthropics/claude-plugins-official，作为 Claude Code 高质量插件的精选目录。该仓库在 24 小时内获得了 263 颗星，显示出强烈的社区兴趣。 这个官方插件市场集中并审核了 Anthropic 代理编码工具 Claude Code 的扩展，使开发者更容易发现和安装可信的插件。这表明 Anthropic 致力于围绕 Claude Code 构建生态系统，可能加速其在开发者中的采用。 插件可以通过 Claude Code 的插件系统直接从市场安装，使用命令 '/plugin install {插件名}@claude-plugins-official'。该仓库使用 Python 编写，由 Anthropic 管理。
 
-rss · LWN.net · May 22, 14:37
+ossinsight · anthropics · May 23, 14:54
 
-**背景**: Linux 内核的页缓存使用 LRU（最近最少使用）或多代 LRU 算法来管理 folio，但这些通用策略对于某些工作负载可能不是最优的。eBPF 是一种允许在运行时安全高效地扩展内核功能而无需修改内核源代码或加载模块的技术。该提案受 sched_ext 启发，后者通过 BPF 启用自定义 CPU 调度策略。
+**背景**: Claude Code 是 Anthropic 的代理编码工具，可以读取代码库、编辑文件、运行命令，帮助开发者更快地交付。它可作为 VS Code 扩展和独立终端工具使用。插件扩展了 Claude Code 的功能，允许与外部服务或自定义工作流集成。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://lwn.net/Articles/856931/">Multi-generational LRU: the next generation [LWN.net]</a></li>
-<li><a href="https://ebpf.io/">eBPF - Introduction, Tutorials & Community Resources</a></li>
-<li><a href="https://blogs.oracle.com/linux/intro-to-folios">An Introduction to Folios | linux - Oracle Blogs</a></li>
+<li><a href="https://github.com/anthropics/claude-plugins-official">anthropics/claude-plugins-official - GitHub</a></li>
+<li><a href="https://claude.com/plugins">Plugins for Claude Code and Cowork | Anthropic</a></li>
+<li><a href="https://www.anthropic.com/product/claude-code">Claude Code | Anthropic's agentic coding system</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 在会议期间，Vlastimil Babka 质疑为什么现有的两次访问启发式方法在这种情况下失效，Zussman 解释并发扫描会欺骗它。Shakeel Butt 询问该接口是否可以管理所有内存而不仅仅是页缓存；Zussman 表示目前他专注于文件支持的内存。
-
-**标签**: `#Linux kernel`, `#BPF`, `#page cache`, `#memory management`, `#storage`
+**标签**: `#AI`, `#Claude`, `#plugins`, `#Python`, `#Anthropic`
 
 ---
 
 <a id="item-9"></a>
-## [字节跳动开源 3B 统一多模态模型 Lance](https://mp.weixin.qq.com/s/Xbfq72cr1796RZxJIs3L1A) ⭐️ 8.0/10
+## [CloakBrowser：可绕过机器人检测的隐形 Chromium 分支](https://github.com/CloakHQ/CloakBrowser) ⭐️ 7.0/10
 
-字节跳动开源了 Lance，一个 30 亿参数的多模态模型，原生统一了图像与视频的理解、生成及跨模态编辑，采用 Apache 2.0 许可。 Lance 轻量级但统一的架构在 GenEval 和 VBench 等基准上取得了有竞争力的结果，有望降低多模态 AI 研究和应用的门槛。 Lance 采用共享上下文双流专家架构，分别使用 Qwen2.5-VL 和 Wan2.2 编码器处理理解与生成任务，并引入模态感知位置编码以解决序列边界混淆问题。
+CloakHQ 发布了 CloakBrowser，这是一个开源的隐形 Chromium 分支，通过在 C++ 源码层面修改浏览器指纹，通过了全部 30 项机器人检测测试，并可作为 Playwright 的直接替代品。 该项目通过提供一个反机器人系统无法与正常用户区分的真实浏览器二进制文件，解决了网页自动化和数据抓取中的关键难题，有望减少网站封锁并实现更可靠的自动化工作流。 与依赖 JavaScript 注入或配置补丁的典型隐形方案不同，CloakBrowser 直接在 C++ 源码层面修改指纹，使其对检测系统而言与标准 Chromium 浏览器无异。
 
-telegram · zaihuapd · May 22, 06:40
+ossinsight · CloakHQ · May 23, 14:54
 
-**背景**: 统一多模态模型旨在用一个框架同时处理理解和生成任务，传统上需要单独的模型。Qwen2.5-VL 是阿里云的视觉语言模型系列，Wan2.2 是 Wan-Video 团队基于混合专家架构的视频扩散模型。模态感知位置编码帮助模型在共享序列中区分不同的输入类型。
+**背景**: Playwright 等浏览器自动化工具广泛用于测试和网页抓取，但许多网站通过指纹技术检测自动化浏览器。传统的变通方法涉及修补 JavaScript 或配置文件，但仍可能被检测。CloakBrowser 采用不同方法，直接分支 Chromium 并修改其源代码以消除自动化痕迹。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://huggingface.co/collections/Qwen/qwen25-vl">Qwen2.5-VL - a Qwen Collection</a></li>
-<li><a href="https://github.com/Wan-Video/Wan2.2">GitHub - Wan-Video/Wan2.2: Wan: Open and Advanced Large-Scale ...</a></li>
-<li><a href="https://arxiv.org/html/2510.23095v1">Revisiting Multimodal Positional Encoding in Vision–Language Models</a></li>
+<li><a href="https://github.com/CloakHQ/CloakBrowser">GitHub - CloakHQ/ CloakBrowser : Stealth Chromium that passes...</a></li>
+<li><a href="https://cloakbrowser.dev/">CloakBrowser — Stealth Chromium for Browser Automation</a></li>
+<li><a href="https://andrew.ooo/posts/cloakbrowser-stealth-chromium-playwright-replacement-review/">CloakBrowser Review: Stealth Chromium for AI... — andrew.ooo</a></li>
 
 </ul>
 </details>
 
-**标签**: `#multimodal`, `#ByteDance`, `#open-source`, `#AI`, `#computer vision`
+**标签**: `#browser automation`, `#anti-bot`, `#web scraping`, `#Python`, `#Chromium`
 
 ---
 
 <a id="item-10"></a>
-## [中国八部门整治非法跨境证券交易](https://mp.weixin.qq.com/s?__biz=MzA4NzAzMDgwMw==&amp;mid=2651090403&amp;idx=3&amp;sn=bca72a940ac72bef356f29b5b9576ac1&amp;chksm=8a1670281e2bc67d2df3608a313ba9fdaf0fcd2f43ce44475c6bf273b386af2e4f9d8e8e2e2b&amp;scene=0&amp;xtrack=1) ⭐️ 8.0/10
+## [Osiris：开源 OSINT 平台，Palantir 替代品](https://github.com/simplifaisoul/osiris) ⭐️ 7.0/10
 
-中国八部门联合印发整治非法跨境证券期货基金经营方案，只允许存量投资者单向卖出并转出资金。证监会已对老虎、富途、长桥立案调查并作出行政处罚事先告知。 此次整治标志着跨境投资监管的显著收紧，影响数百万使用此类平台的中国投资者，并推动境外投资转向港股通、QDII 等合法渠道。 两年集中整治期内仅允许存量投资者卖出并转出资金，期满后需全面关停相关网站、软件和服务器。证监会拟没收老虎、富途、长桥全部违法所得并严厉处罚。
+Osiris 是一个用 TypeScript 构建的开源实时 OSINT 仪表盘，过去 24 小时内在 GitHub 上获得了 61 颗星，定位为 Palantir 的替代品。 该项目为昂贵的商业 OSINT 平台（如 Palantir）提供了免费的开源替代方案，可能使安全研究人员和小型组织更容易获得情报分析工具。 该仓库处于早期阶段，仅显示 1 次推送且无拉取请求，表明目前开发活动有限。它完全用 TypeScript 编写，暗示了基于 Web 的架构。
 
-telegram · zaihuapd · May 22, 08:26
+ossinsight · simplifaisoul · May 23, 14:54
 
-**背景**: 非法跨境证券经营指境外券商未经批准招揽内地客户。合法境外投资渠道包括港股通（沪港通、深港通）、合格境内机构投资者（QDII）和粤港澳大湾区跨境理财通，这些渠道在严格监管下允许资本流出。
+**背景**: OSINT（开源情报）指收集和分析公开可用数据以用于情报目的。Palantir 是一个专有数据分析平台，被政府和企业广泛用于情报和安全领域。像 Osiris 这样的开源替代品旨在提供类似功能，无需许可费用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/wiki/港股通">港股通 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://en.wikipedia.org/wiki/QDII">QDII</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/沪港通">沪港通 - 维基百科，自由的百科全书</a></li>
+<li><a href="https://www.rankred.com/palantir-competitors-alternatives/">14 Palantir Competitors and Alternatives [As Of 2026]</a></li>
+<li><a href="https://github.com/campwill/osint-dashboard">GitHub - campwill/ osint - dashboard : A web-based OSINT tool that...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Telegram 帖子未包含社区评论，仅转述了监管公告，并附带了拉勾网破产重整的额外背景信息。
-
-**标签**: `#regulation`, `#fintech`, `#cross-border investment`, `#China`, `#securities`
-
----
-
-<a id="item-11"></a>
-## [Cloudflare 全球故障 25 分钟，影响 28% HTTP 流量](https://t.me/zaihuapd/41527) ⭐️ 8.0/10
-
-2025 年 12 月 5 日 08:47 UTC，Cloudflare 全球网络发生 25 分钟故障，影响了约 28%的 HTTP 流量，起因是修复 Next.js 安全漏洞 CVE-2025-55182（React2Shell）。 此次故障影响了全球 HTTP 流量的很大一部分，凸显了紧急安全补丁可能引发附带损害的风险，并强调了在广泛使用的框架中缓解像 CVE-2025-55182 这样的关键 RCE 漏洞的复杂性。 故障由 Cloudflare 为修补 CVE-2025-55182（React Server Components 和 Next.js 中的一个关键预认证远程代码执行漏洞）而进行的 WAF 更新触发，主要影响使用旧版 FL1 代理并部署 Cloudflare 托管规则集的客户。
-
-telegram · zaihuapd · May 22, 16:15
-
-**背景**: CVE-2025-55182（也称为 React2Shell）是一个关键漏洞，允许在 React Server Components 和 Next.js 应用程序中实现未经身份验证的远程代码执行。Cloudflare 运营着一个全球内容交付网络和 Web 安全平台，其中包括用于阻止此类利用的 Web 应用防火墙（WAF）。此次故障发生在旨在缓解该漏洞的规则意外造成了网络中断。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.microsoft.com/en-us/security/blog/2025/12/15/defending-against-the-cve-2025-55182-react2shell-vulnerability-in-react-server-components/">Defending against the CVE-2025-55182 (React2Shell) vulnerability in React Server Components | Microsoft Security Blog</a></li>
-<li><a href="https://en.wikipedia.org/wiki/React_Server_Components">React Server Components</a></li>
-<li><a href="https://www.cve.org/CVERecord?id=CVE-2025-55182">CVE Record: CVE-2025-55182</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Cloudflare`, `#故障报告`, `#网络`, `#CVE`, `#WAF`
+**标签**: `#OSINT`, `#dashboard`, `#security`, `#TypeScript`, `#open-source`
 
 ---
